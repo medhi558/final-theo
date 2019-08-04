@@ -1,0 +1,232 @@
+div#contenu{
+
+	margin: 0px 300px
+}
+
+.menu {
+	text-align: center;
+	float:left;
+	width:200px;
+	height:800px;
+	background-color:#A79990;
+	display: inline-block;
+	}
+.sousmenu a {
+	text-decoration: none;
+	color: black;
+}
+
+.sousmenu {
+
+	text-align: left;
+	
+}
+
+
+.Citation {
+	border: 2px solid black; 
+    display: block;
+    margin: 50px;
+    padding: 25px;
+    width: 100%;
+    box-shadow: 15px 15px 10px gray;
+    text-align: justify;
+    text-align: center;
+}
+
+.bouton1  {
+	list-style-type: none; 
+	position: relative;
+	left: -10%;
+	padding: 6px 25px;
+	background: #C9001A;
+	color: #FFFFFF;
+	-webkit-transition: all 1.8s ease-out 0s;
+	-moz-transition: all 1.8s ease-out 0s;
+	transition: all 1.2s ease-out 0s;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 4px dashed #000000;
+}
+
+.bouton2  {
+	list-style-type: none; 
+	position: relative;
+	left: -10%;
+	padding: 6px 25px;
+	background: #C9001A;
+	color: #FFFFFF;
+	-webkit-transition: all 1.8s ease-out 0s;
+	-moz-transition: all 1.8s ease-out 0s;
+	transition: all 1.2s ease-out 0s;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 4px dashed #000000;
+}
+
+.bouton3  {
+	list-style-type: none; 
+	position: relative;
+	left: -10%;
+	padding: 6px 25px;
+	background: #C9001A;
+	color: #FFFFFF;
+	-webkit-transition: all 1.8s ease-out 0s;
+	-moz-transition: all 1.8s ease-out 0s;
+	transition: all 1.2s ease-out 0s;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 4px dashed #000000;
+}
+
+.bouton4  {
+	list-style-type: none; 
+	position: relative;
+	left: -10%;
+	padding: 6px 25px;
+	background: #C9001A;
+	color: #FFFFFF;
+	-webkit-transition: all 1.8s ease-out 0s;
+	-moz-transition: all 1.8s ease-out 0s;
+	transition: all 1.2s ease-out 0s;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 4px dashed #000000;
+}
+
+}
+.bouton1:hover {
+	background: #8FCF3C;
+	color: #000000;
+	border: 4px solid #34393E;
+}
+.bouton2:hover {
+	background: #8FCF3C;
+	color: #000000;
+	border: 4px solid #34393E;
+}
+.bouton3:hover {
+	background: #8FCF3C;
+	color: #000000;
+	border: 4px solid #34393E;
+}
+.bouton4:hover {
+	background: #8FCF3C;
+	color: #000000;
+	border: 4px solid #34393E;
+}
+
+
+.twitter-tweet {
+
+	margin: 0px 1120px;
+
+}
+
+.floyd {
+
+	margin: 0px 300px;
+}
+
+
+p {
+	dipslay : block ;
+	margin-top : 10px ;
+	margin-left : 100px ;
+
+}
+
+.marge {
+	
+	border-width:1px 2px 2px 1px;
+ 	border-style:solid;
+ 	border-color:black;
+ 	display: inline-block
+}
+
+
+h1,h2 {
+
+	text-align: center;
+
+}
+
+.espace {
+
+	margin: center;
+}
+
+img {
+	max-width: 40%;
+	max-height: 40%;
+}
+
+.body
+{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
+	margin: 8px;
+}
+
+.small {
+
+	width: 20%;
+ 	
+}
+
+/* Pour la page contact */
+
+form {
+ 
+  margin: 0 auto;
+  width: 400px;
+  padding: 2em;
+  border: 2px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+ 
+  display: inline-block;
+  width: 90px;
+  
+}
+
+input, textarea {
+
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+
+.button {
+ 
+  padding-left: 90px; 
+}
+
+.content {
+    display: inline-block;
+    width: calc(100% - 216px);
+}
+
+.center {
+    text-align: center;
+}

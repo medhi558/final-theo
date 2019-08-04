@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Le Noble Art</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="behavior.js"></script>
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_jg32HzQppubdNf1U905lZ");
+   })();
+</script>
+</head>
+<body>
+<body style="background-color:#E5DFDB;">
+</body>
+
+<div class="menu"><h2><U>Le menu</h2></U>
+<div class="sousmenu"><ul>
+	<li class="bouton1"><a href="index.html">Page principale</a></li>
+	<br /><li class="bouton2"><a href="ceinture.html">Les Ceintures</a></li>
+	<br /><li class="bouton3"><a href="tweets.html">Tweets</a></li>
+	<br /><li class="bouton4"><a href="nouscontacter.html">Contact</a></li>
+</ul></div>
+</div>
+
+<div class="content">
+<h1><P style="text-align:center"><U>Contact</U></P></h1>
+
+<div class="center"><img class="small"
+	id="smart_thumbnail" 
+	src = "https://actiroute.cdn.prismic.io/actiroute/10f5e19df2ad6f57b5a8c02c32170b098d955ff7_moyens-communication.jpg" 
+	alt="Contact" /></div>
+
+
+
+<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+  <div class="button">
+    <button id="submit" type="submit">Envoyer le message</button>
+
+
+</div>
+</form>
+</div>
+<footer>
+      <p style="text-align: center">Made by
+      <a href="https://twitter.com/CydiaHide" target="_blank">
+        <b>Théo Rivaton</b>
+      </a>
+      for
+      <a href="https://www.holbertonschool.com" target="_blank">
+        <b>Holberton School</b>
+      </a></p>
+    </footer>
+
+	 
+</body>
+</html>
